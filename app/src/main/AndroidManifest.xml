@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myquizanswer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/quiz"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/quiz"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyQuizAnswer">
+        <activity android:name=".Tradition" android:label="Tradition"></activity>
+        <activity android:name=".WebTechnology" android:label="Web Technology" />
+        <activity android:name=".ComputerNetwork" android:label="Computer Network" />
+        <activity android:name=".DataCompression" android:label="Data Compression" />
+        <activity android:name=".SoftwareProjectManagement" android:label="Software Project Management" />
+        <activity android:name=".SoftwareEngineering" android:label="Software Engineering" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
